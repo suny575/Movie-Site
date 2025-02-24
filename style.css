@@ -58,6 +58,7 @@ input{
     float: left;
     width: 28%;
     padding: 10px 10px;
+    justify-content: center;
 }
 
 .card{
