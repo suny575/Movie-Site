@@ -4,9 +4,9 @@ const IMG_PATH = "https://image.tmdb.org/t/p/w1280";
 const SEARCHAPI =
   "https://api.themoviedb.org/3/search/movie?&api_key=1e7c47e66e64eff782801c923a8f1837&query=";
 
-const main = document.getElementById("#section");
-const form = document.getElementById("#form");
-const search = document.getElementById("#query");
+const main = document.getElementById("section");
+const form = document.getElementById("form");
+const search = document.getElementById("query");
 
 returnMovies(APILINK);
 function returnMovies(url) {
